@@ -1,10 +1,12 @@
-// server.js
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const UserModel = require('./Models/users');
+require('dotenv').config();
 
-mongoose.connect("mongodb+srv://cgipson234:oehUZohjqhMlFyYQ@180cluster.qdrez0t.mongodb.net/shopdatabase?retryWrites=true&w=majority");
+
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 const userRoute = express.Router();
 
