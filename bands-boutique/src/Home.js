@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <div className= "flex flex-row  justify-center  justify-items-center gap-x-10 m-10 items-center">
         <div className="left">
           <img src ={'/images/ring.png'} alt ="dog"/>
