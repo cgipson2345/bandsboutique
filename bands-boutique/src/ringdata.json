@@ -10,7 +10,7 @@
       "resizable": "Yes",
       "stoneWeight": "4.00 carats",
       "price": "389$",
-      "picture": "./images/ring2.PNG"
+      "picture": "images/ring1.PNG"
     },
     {
       "name": "Ring No.2",
@@ -22,7 +22,7 @@
       "resizable": "Yes",
       "stoneWeight": "4.00 carats",
       "price": "1399$",
-      "picture": "./images/ring2.PNG"
+      "picture": "images/ring2.PNG"
     },
     {
       "name": "Ring No.3",
@@ -34,7 +34,7 @@
       "resizable": "Yes",
       "stoneWeight": "6.50 carats",
       "price": "1300$",
-      "picture": "./images/ring3.PNG"
+      "picture": "images/ring3.PNG"
     },
     {
       "name": "Ring No.4",
@@ -46,7 +46,7 @@
       "resizable": "Yes",
       "stoneWeight": "2.7 carats",
       "price": "700$",
-      "picture": "./images/ring4.PNG"
+      "picture": "images/ring4.PNG"
     },
     {
       "name": "Ring No.5",
@@ -58,7 +58,7 @@
       "resizable": "Yes",
       "stoneWeight": "3.5",
       "price": "1199$",
-      "picture": "./images/ring5.PNG"
+      "picture": "images/ring5.PNG"
     },
     {
       "name": "Ring No.6",
@@ -70,7 +70,7 @@
       "resizable": "Yes",
       "stoneWeight": "6.5",
       "price": "2400$",
-      "picture": "./images/ring6.PNG"
+      "picture": "images/ring6.PNG"
     },
     {
       "name": "Ring No.7",
@@ -82,7 +82,7 @@
       "resizable": "Yes",
       "stoneWeight": "3.2",
       "price": "850$",
-      "picture": "./images/ring7.PNG"
+      "picture": "images/ring7.PNG"
     },
     {
       "name": "Ring No.8",
@@ -94,7 +94,7 @@
       "resizable": "Yes",
       "stoneWeight": "4.5",
       "price": "750$",
-      "picture": "./images/ring8.PNG"
+      "picture": "images/ring8.PNG"
     },
     {
       "name": "Ring No.9",
@@ -106,7 +106,7 @@
       "resizable": "Yes",
       "stoneWeight": "2",
       "price": "1500$",
-      "picture": "./images/ring9.PNG"
+      "picture": "images/ring9.PNG"
     },
     {
       "name": "Ring No.10",
@@ -118,7 +118,7 @@
       "resizable": "Yes",
       "stoneWeight": "1.25",
       "price": "650$",
-      "picture": "./images/ring10.PNG"
+      "picture": "images/ring10.PNG"
     },
     {
       "name": "Ring No.11",
@@ -130,7 +130,7 @@
       "resizable": "no",
       "stoneWeight": "6.00 carats",
       "price": "499$",
-      "picture": "./images/ring11.PNG"
+      "picture": "images/ring11.PNG"
     },
     {
       "name": "Ring No.12",
@@ -142,7 +142,7 @@
       "resizable": "Yes",
       "stoneWeight": "1.02 carats",
       "price": "1299$",
-      "picture": "./images/ring12.PNG"
+      "picture": "images/ring12.PNG"
     },
     {
       "name": "Ring No.13",
@@ -154,7 +154,7 @@
       "resizable": "Yes",
       "stoneWeight": "4.80 carats",
       "price": "1418$",
-      "picture": "./images/ring13.PNG"
+      "picture": "images/ring13.PNG"
     },
     {
       "name": "Ring No.14",
@@ -166,7 +166,7 @@
       "resizable": "Yes",
       "stoneWeight": "1.20 carats",
       "price": "768$",
-      "picture": "./images/ring14.PNG"
+      "picture": "images/ring14.PNG"
     },
     {
       "name": "Ring No.15",
@@ -178,7 +178,7 @@
       "resizable": "Yes",
       "stoneWeight": "2.5",
       "price": "838$",
-      "picture": "./images/ring15.PNG"
+      "picture": "images/ring15.PNG"
     },
     {
       "name": "Ring No.16",
@@ -190,7 +190,7 @@
       "resizable": "Yes",
       "stoneWeight": "1.20 carats",
       "price": "988$",
-      "picture": "./images/ring16.PNG"
+      "picture": "images/ring16.PNG"
     },
     {
       "name": "Ring No.17",
@@ -202,7 +202,7 @@
       "resizable": "Yes",
       "stoneWeight": "1.30 carats",
       "price": "577$",
-      "picture": "./images/ring17.PNG"
+      "picture": "images/ring17.PNG"
     },
     {
       "name": "Ring No.18",
@@ -214,7 +214,7 @@
       "resizable": "No",
       "stoneWeight": "0",
       "price": "350$",
-      "picture": "./images/ring18.PNG"
+      "picture": "images/ring18.PNG"
     },
     {
       "name": "Ring No.19",
@@ -226,7 +226,7 @@
       "resizable": "Yes",
       "stoneWeight": "0",
       "price": "89$",
-      "picture": "./images/ring19.PNG"
+      "picture": "images/ring19.PNG"
     },
     {
       "name": "Ring No.20",
@@ -238,7 +238,7 @@
       "resizable": "Yes",
       "stoneWeight": "0",
       "price": "90$",
-      "picture": "./images/ring20.PNG"
+      "picture": "images/ring20.PNG"
     }
   ]
   
