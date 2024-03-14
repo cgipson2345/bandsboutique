@@ -66,15 +66,19 @@ const Shop = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {products.map(product => (
                     <div key={product.name} className="bg-white rounded-lg shadow-md p-4">
-                        <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-                        <img src = {product.picture} alt = "bruh"/>
-                        <p className="text-gray-600">${product.price}</p>
-                        <button 
-                            className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
-                            onClick={() => setCart([...cart, product])} // Add item to cart
-                        >
-                            Add to Cart
-                        </button>
+                    <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+                    <img 
+                        src={product.picture} 
+                        alt="bruh" 
+                        className="w-32 h-32 object-cover" // Set a fixed width and height for the images
+                    />
+                    <p className="text-gray-600">${product.price}</p>
+                    <button 
+                        className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                        onClick={() => setCart([...cart, product])} // Add item to cart
+                    >
+                        Add to Cart
+                    </button>
                     </div>
                 ))}
             </div>
