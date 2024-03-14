@@ -2,137 +2,126 @@
     {
       "name": "Ring No.1",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "4.00 carats",
       "price": "389$",
-      "picture": "Picture"
+      "picture": "images/ring1.png"
     },
     {
       "name": "Ring No.2",
       "metalStamp": "14K",
-      "metal": "White gold",
-      "material": "14K",
+      "material": "White gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "4.00 carats",
       "price": "1399$",
-      "picture": "Picture"
+      "picture": "images/ring2.png"
     },
     {
       "name": "Ring No.3",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "6.50 carats",
       "price": "1300$",
-      "picture": "Picture"
+      "picture": "images/ring3.png"
     },
     {
       "name": "Ring No.4",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "2.7 carats",
       "price": "700$",
-      "picture": "Picture"
+      "picture": "images/ring4.png"
     },
     {
       "name": "Ring No.5",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K, diamonds, White gold",
+      "material": "Yellow gold, diamonds, White gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "3.5",
       "price": "1199$",
-      "picture": "Picture"
+      "picture": "images/ring5.png"
     },
     {
       "name": "Ring No.6",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K, diamonds, White gold, yellow Gold",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "6.5",
       "price": "2400$",
-      "picture": "Picture"
+      "picture": "images/ring6.png"
     },
     {
       "name": "Ring No.7",
       "metalStamp": "14K",
-      "metal": "White gold",
-      "material": "14K",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "3.2",
       "price": "850$",
-      "picture": "Picture"
+      "picture": "images/ring7.png"
     },
     {
       "name": "Ring No.8",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K, diamonds, White gold, yellow Gold",
-      "gemType": "Diamond, fancy yellow",
+      "material": "Yellow gold, diamonds, White gold, yellow Gold",
+      "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "4.5",
       "price": "750$",
-      "picture": "Picture"
+      "picture": "images/ring8.png"
     },
     {
       "name": "Ring No.9",
       "metalStamp": "14K",
-      "metal": "14K White gold",
-      "material": "14K",
+      "material": "14K White gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "4.75",
       "resizable": "Yes",
       "stoneWeight": "2",
       "price": "1500$",
-      "picture": "Picture"
+      "picture": "images/ring9.png"
     },
     {
       "name": "Ring No.10",
       "metalStamp": "14K",
-      "metal": "Yellow gold",
-      "material": "14K",
+      "material": "Yellow gold",
       "gemType": "Diamond",
       "setting": "Prongs",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "1.25",
       "price": "650$",
-      "picture": "Picture"
+      "picture": "images/ring10.png"
     },
     {
       "name": "Ring No.11",
       "metalStamp": "925-sterling, 10K, 14K, 18K",
-      "metal": "White gold",
       "material": "gemstone, stone, crystal",
       "gemType": "Moissanite",
       "setting": "Bypass",
@@ -140,12 +129,11 @@
       "resizable": "no",
       "stoneWeight": "6.00 carats",
       "price": "499$",
-      "picture": "Picture"
+      "picture": "images/ring11.png"
     },
     {
       "name": "Ring No.12",
       "metalStamp": "14K",
-      "metal": "Rose gold",
       "material": "Yellow Gold",
       "gemType": "Moissanite",
       "setting": "6 Prong",
@@ -153,25 +141,23 @@
       "resizable": "Yes",
       "stoneWeight": "1.02 carats",
       "price": "1299$",
-      "picture": "Picture"
+      "picture": "images/ring12.png"
     },
     {
       "name": "Ring No.13",
       "metalStamp": "14K",
-      "metal": "Rose gold",
-      "material": "14 k rose gold",
+      "material": "Rose gold",
       "gemType": "Morganite",
       "setting": "4 Prong",
       "ringSize": "6",
       "resizable": "Yes",
       "stoneWeight": "4.80 carats",
       "price": "1418$",
-      "picture": "Picture"
+      "picture": "images/ring13.png"
     },
     {
       "name": "Ring No.14",
       "metalStamp": "14K",
-      "metal": "Rose gold",
       "material": "14 k rose gold",
       "gemType": "Aquamarine",
       "setting": "3 Prong",
@@ -179,85 +165,79 @@
       "resizable": "Yes",
       "stoneWeight": "1.20 carats",
       "price": "768$",
-      "picture": "Picture"
+      "picture": "images/ring14.png"
     },
     {
       "name": "Ring No.15",
       "metalStamp": "14K",
-      "metal": "Rose gold",
-      "material": "Morganite",
+      "material": "14 k rose gold",
       "gemType": "Morganite",
       "setting": "4 Prong",
       "ringSize": "4",
       "resizable": "Yes",
       "stoneWeight": "2.5",
       "price": "838$",
-      "picture": "Picture"
+      "picture": "images/ring15.png"
     },
     {
       "name": "Ring No.16",
       "metalStamp": "14K",
-      "metal": "Rose gold",
-      "material": "Morganite",
+      "material": "Rose gold",
       "gemType": "Morganite",
       "setting": "4 Prong",
       "ringSize": "5",
       "resizable": "Yes",
       "stoneWeight": "1.20 carats",
       "price": "988$",
-      "picture": "Picture"
+      "picture": "images/ring16.png"
     },
     {
       "name": "Ring No.17",
-      "metalStamp": "14K",
-      "metal": "Rose gold",
-      "material": "Morganite",
+      "metalStamp": "14k",
+      "material": "Sterling Silver",
       "gemType": "Morganite",
       "setting": "4 Prong",
       "ringSize": "5",
       "resizable": "Yes",
       "stoneWeight": "1.30 carats",
       "price": "577$",
-      "picture": "Picture"
+      "picture": "images/ring17.png"
     },
     {
       "name": "Ring No.18",
       "metalStamp": "925 Sterling",
-      "metal": "Sterling Silver",
-      "material": "Sterling Silver",
+      "material": "Rose gold",
       "gemType": "Morganite",
       "setting": "4 Prong",
       "ringSize": "6, 7, 8, 9",
       "resizable": "No",
       "stoneWeight": "0",
       "price": "350$",
-      "picture": "Picture"
+      "picture": "images/ring18.png"
     },
     {
       "name": "Ring No.19",
-      "metalStamp": "14K",
-      "metal": "Gold Filled",
-      "material": "iron",
-      "gemType": "Gemstone",
+      "metalStamp": "14k",
+      "material": "Gold Filled",
+      "gemType": "Moonstone",
       "setting": "4 Prong",
       "ringSize": "5",
       "resizable": "Yes",
       "stoneWeight": "0",
       "price": "89$",
-      "picture": "Picture"
+      "picture": "images/ring19.png"
     },
     {
       "name": "Ring No.20",
-      "metalStamp": null,
-      "metal": null,
+      "metalStamp": "None",
       "material": "Gemstone",
       "gemType": "Gemstone",
-      "setting": "Prong",
+      "setting": "4 Prong",
       "ringSize": "5",
       "resizable": "Yes",
       "stoneWeight": "0",
       "price": "90$",
-      "picture": "Picture"
+      "picture": "images/ring20.png"
     }
   ]
   
