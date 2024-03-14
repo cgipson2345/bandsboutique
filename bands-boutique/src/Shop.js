@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import ringdata from './ringdata.json'
+import ringtree from './images/ring2.PNG'
+
 
 const Shop = () => {
     const [cart, setCart] = useState([]);
     const [purchaseHistory, setPurchaseHistory] = useState([]);
     const [token, setToken] = useState('');
+    const [products, setProducts] = useState([]);
 
     useEffect(() => {
         // Fetch token from local storage or wherever you store it after login
@@ -15,11 +19,15 @@ const Shop = () => {
         fetchPurchaseHistory();
     }, []);
 
-    const products = [
-        { id: 1, name: 'Gold Ring', price: 100 },
-        { id: 2, name: 'Silver Ring', price: 50 },
-        { id: 3, name: 'Diamond Ring', price: 500 },
-    ];
+    //const products = [
+    //    { id: 1, name: 'Gold Ring', price: 100 },
+    //    { id: 2, name: 'Silver Ring', price: 50 },
+    //    { id: 3, name: 'Diamond Ring', price: 500 },
+    //];
+    useEffect(() => {
+        setProducts(ringdata);
+    }, []);
+
 
     const handlePurchase = async () => {
         try {
@@ -57,8 +65,9 @@ const Shop = () => {
             <h2 className="text-3xl font-semibold mb-4">Welcome to the Shop</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {products.map(product => (
-                    <div key={product.id} className="bg-white rounded-lg shadow-md p-4">
+                    <div key={product.name} className="bg-white rounded-lg shadow-md p-4">
                         <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+                        <img src = {product.picture} alt = "bruh"/>
                         <p className="text-gray-600">${product.price}</p>
                         <button 
                             className="bg-blue-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
