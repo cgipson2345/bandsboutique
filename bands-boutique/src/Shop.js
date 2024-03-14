@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ringdata from './ringdata.json'
-import ringtree from './images/ring2.PNG'
+//import ringtree from './images/ring2.PNG'
 
 
 const Shop = () => {

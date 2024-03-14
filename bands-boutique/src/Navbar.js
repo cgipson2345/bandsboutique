@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
 import Shop from './Shop';
+import LiveChat from './SendMessage'
+import LiveServiceChat from './SendMessage';
 
 const Navbar = () => {
   return (
@@ -15,6 +17,7 @@ const Navbar = () => {
             <Link to="/" className="text-gray-700 hover:text-black">Home</Link>
             <Link to="/shop" className="text-gray-700 hover:text-black">Shop</Link>
             <Link to="/login" className="text-gray-700 hover:text-black">Login</Link>
+            <Link to="/SendMessage" className="text-gray-700 hover:text-black">Login</Link>
           </div>
         </div>
       </nav>
@@ -23,6 +26,7 @@ const Navbar = () => {
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/SendMessage" element={<LiveServiceChat />} />
       </Routes>
     </Router>
   );
