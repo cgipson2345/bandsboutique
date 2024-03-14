@@ -1,21 +1,13 @@
-// src/components/Home.js
-import React from 'react';
+// Login.js
+import React, { useState } from 'react';
+import axios from 'axios';
 
-const Login = () => {
+const Login = ({ handleLogin }) => {
   return (
-  <div className="flex flex-row justify-center items-center h-screen">
-    <div className="flex justify-center items-center">
-      <img src="rings.png" alt="rings image" className="size-full"/>
+    <div>
+      <h2>Welcome to the Home Page</h2>
+      <p>This is the home page content. Customize it as needed for your application.</p>
     </div>
-    <div className="flex flex-col justify-center items-center ml-10">
-      <h1 className="mb-4 text-3xl font-bold">Welcome!</h1>
-      <p className="text-lg">Email Address</p>
-      <input type="text" placeholder="" className="mb-4 w-40 border-2 rounded-md"/>
-      <p className="text-lg">Password</p>
-      <input type="password" placeholder="" className="mb-4 w-40 border-2 rounded-md"/>
-      <button type="button" className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded w-40">Login</button>
-    </div>
-  </div>
   );
 };
 
