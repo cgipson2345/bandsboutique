@@ -5,7 +5,7 @@ const Login = () => {
   return (
   <div className="flex flex-row justify-center items-center h-screen">
     <div className="flex justify-center items-center">
-      <img src="rings.png" alt="" className="size-full"/>
+      <img src="rings.png" alt="rings image" className="size-full"/>
     </div>
     <div className="flex flex-col justify-center items-center ml-10">
       <h1 className="mb-4 text-3xl font-bold">Welcome!</h1>
