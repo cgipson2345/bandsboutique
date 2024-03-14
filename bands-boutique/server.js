@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Atlas connection string
-const mongoURI = "mongodb+srv://torisutansan02:Pus9dTyVEe8xUEEq@bandsboutique.68oxbvu.mongodb.net/?retryWrites=true&w=majority";;
+const mongoURI = "mongodb+srv://torisutansan02:Pus9dTyVEe8xUEEq@bandsboutique.68oxbvu.mongodb.net/?retryWrites=true&w=majority";
 
 // MongoDB Atlas connection
 mongoose.connect(mongoURI, {
@@ -39,8 +39,22 @@ const userSchema = new mongoose.Schema({
   }
 });
 
-
 const User = mongoose.model('User', userSchema);
+
+const purchaseSchema = new mongoose.Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
+  item: String,
+  price: Number,
+  purchaseDate: {
+    type: Date,
+    default: Date.now
+  }
+});
+
+const Purchase = mongoose.model('Purchase', purchaseSchema);
 
 // Route for user registration
 app.post('/api/register', async (req, res) => {
@@ -69,7 +83,6 @@ app.post('/api/register', async (req, res) => {
   }
 });
 
-
 // Route for user login
 app.post('/api/login', async (req, res) => {
   const { username, password } = req.body;
@@ -89,12 +102,46 @@ app.post('/api/login', async (req, res) => {
     }
 
     // Generate JWT token upon successful login
-    const token = jwt.sign({ username: user.username }, 'secret_key', { expiresIn: '1h' });
+    const token = jwt.sign({ userId: user._id }, 'secret_key', { expiresIn: '1h' });
 
     res.status(200).json({ token });
   } catch (err) {
     console.error('Login error:', err);
     res.status(500).send('Error logging in');
+  }
+});
+
+// Create Purchase Endpoint
+app.post('/api/purchase', async (req, res) => {
+  const { item, price } = req.body;
+  
+  try {
+    // Extract user ID from token
+    const token = req.headers.authorization.split(' ')[1]; // Extract token from authorization header
+    const decodedToken = jwt.verify(token, 'secret_key');
+    const userId = decodedToken.userId; // Assuming userId is stored in the token payload
+
+    await Purchase.create({ user: userId, item, price });
+    res.status(200).send('Item purchased successfully');
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error purchasing item');
+  }
+});
+
+// Retrieve Purchase History Endpoint
+app.get('/api/purchase-history', async (req, res) => {
+  // Extract user ID from token
+  const token = req.headers.authorization.split(' ')[1]; // Extract token from authorization header
+  const decodedToken = jwt.verify(token, 'secret_key');
+  const userId = decodedToken.userId; // Assuming userId is stored in the token payload
+
+  try {
+    const purchases = await Purchase.find({ user: userId }).sort({ purchaseDate: -1 });
+    res.status(200).json(purchases);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving purchase history');
   }
 });
 
