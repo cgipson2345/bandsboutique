@@ -39,7 +39,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 ">
       <Navbar />
       {!isLoggedIn && (
         <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-md">
@@ -91,7 +91,13 @@ function App() {
           </form>
         </div>
       )}
-      <div className="footer"> </div>
+      <div className="footer bg-cyan-950 w-full flex shrink-0 text-white bottom-0 fixed justify-between"> 
+        <div className="flex pl-2"> Contact us! </div> 
+        <div className="flex gap-x-2 pr-2">
+          <p> 123-4567-891 </p>
+          <p>email@gmail.com</p>
+          </div>
+      </div>
     </div>
   );
 }
