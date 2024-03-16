@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
+import '@testing-library/jest-dom/';
 
 // Simple functional component for testing
 const TestComponent = () => <h1>Hello JSDOM!</h1>;
